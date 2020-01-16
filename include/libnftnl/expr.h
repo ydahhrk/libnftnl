@@ -299,6 +299,11 @@ enum {
 	NFTNL_EXPR_SYNPROXY_FLAGS,
 };
 
+enum {
+	NFTNL_EXPR_JOOL_TYPE	= NFTNL_EXPR_BASE,
+	NFTNL_EXPR_JOOL_INSTANCE,
+};
+
 #ifdef __cplusplus
 } /* extern "C" */
 #endif

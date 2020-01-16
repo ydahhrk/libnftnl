@@ -38,6 +38,7 @@ extern struct expr_ops expr_ops_fib;
 extern struct expr_ops expr_ops_flow;
 extern struct expr_ops expr_ops_socket;
 extern struct expr_ops expr_ops_synproxy;
+extern struct expr_ops expr_ops_jool;
 extern struct expr_ops expr_ops_tunnel;
 extern struct expr_ops expr_ops_osf;
 extern struct expr_ops expr_ops_xfrm;
@@ -82,6 +83,7 @@ static struct expr_ops *expr_ops[] = {
 	&expr_ops_flow,
 	&expr_ops_socket,
 	&expr_ops_synproxy,
+	&expr_ops_jool,
 	&expr_ops_tunnel,
 	&expr_ops_osf,
 	&expr_ops_xfrm,
